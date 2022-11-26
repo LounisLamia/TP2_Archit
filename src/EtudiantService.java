@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -13,16 +14,17 @@ public class EtudiantService {
 		 iUnivRep = UnivRep;
 		 
 	}
+	private IJournal journal;
 	
 	
 	
 	
-	boolean inscription (int matricule, String nom, String prénom, String email,String pwd, int id_universite) throws SQLException	
+	boolean inscription (int matricule, String nom, String prénom, String email,String pwd, int id_universite) throws SQLException, IOException	
 	{
 	    Etudiant stud = new Etudiant(matricule, nom, prénom, email,pwd,id_universite);
 	    Universite univ=iUnivRep.GetById(id_universite);
 	    
-	    System.out.println("Log: début de l'opération d'ajout de l'étudiant avec matricule "+matricule);
+	    journal.outPut_Msg("Log: début de l'opération d'ajout de l'étudiant avec matricule "+matricule);
 	    
 	    if(email == null || email.length() == 0)
 	    {
@@ -51,7 +53,7 @@ public class EtudiantService {
 	     }                           
 	     
 		 iStudRep.add(stud);
-		 System.out.println("Log: Fin de l'opération d'ajout de l'étudiant avec matricule "+matricule);
+		 journal.outPut_Msg("Log: Fin de l'opération d'ajout de l'étudiant avec matricule "+matricule);
 		 return true;
 	    
 		
@@ -74,5 +76,12 @@ public ArrayList<Etudiant> GetEtudiatparLivreEmprunte()
 }
 
 
+
+
+
 	
 }
+
+
+	
+
