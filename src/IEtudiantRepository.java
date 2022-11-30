@@ -7,5 +7,6 @@ public interface IEtudiantRepository {
 	public void add(Etudiant E) throws SQLException, IOException;
 	public boolean Exists(String email) throws SQLException, IOException;
 	public boolean Exists(int mat) throws SQLException, IOException;
+	public boolean VerifEmailMat(Etudiant stud) throws SQLException, IOException;
 
 }

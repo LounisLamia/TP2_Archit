@@ -7,8 +7,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class UniversiteRepository implements IUniversiteRepository {
-	private IJournal journal;
 	
+	private IJournal journal;
+	public UniversiteRepository(IJournal journal) {
+		
+		this.journal= journal;
+	}
+	
+	 
 	
 	public Universite GetById(int universityId) throws SQLException, IOException {
 				
@@ -27,8 +33,22 @@ public class UniversiteRepository implements IUniversiteRepository {
 		
 		connect.close();
 		return u;	
-	
+	 
 		
 	}	
-	
+	public int NbrLivreAutorise(int univId) throws SQLException, IOException {
+		// TODO Auto-generated method stub
+		Universite univ= GetById(univId);
+		AbstractFactory abs = new MakeAbstract();
+		Package pack = abs.getPackage(univ.getPack()); 
+		return pack.getNbrLivreAutorise();
+	}
+	public int NbrLivreBonus(int univId) throws SQLException, IOException {
+		// TODO Auto-generated method stub
+		Universite univ= GetById(univId);
+		AbstractFactory abs = new MakeAbstract();
+		Package pack = abs.getPackage(univ.getPack()); 
+		return pack.getNbrLivreBonus();
+		
+	}	
 }

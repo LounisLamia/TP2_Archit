@@ -9,6 +9,10 @@ import java.sql.Statement;
 public class EtudiantRepository implements IEtudiantRepository{
 	private IJournal journal;
 	
+	public EtudiantRepository(IJournal journal) {
+		this.journal = journal;
+	}
+	 
 	
 	public void add(Etudiant E) throws SQLException, IOException{
     
@@ -23,7 +27,7 @@ public class EtudiantRepository implements IEtudiantRepository{
 			}else if (rs == 0){
 				journal.outPut_Msg("log : Echec de l'ajout dans la BD de l'étudiant  du Matricule" + E.getMatricule());
 			}
-		connect.close();
+		connect.close(); 
 	 }
 
 
@@ -63,6 +67,10 @@ public class EtudiantRepository implements IEtudiantRepository{
 		journal.outPut_Msg("logBD----: etudiant avec ce matricule n'existe pas " + mat);	
 		connect.close();
 		return false;
+	}
+	public boolean VerifEmailMat(Etudiant  stud) throws SQLException, IOException {
+		// TODO Auto-generated method stub
+		return this.Exists(stud.getMatricule()) || this.Exists(stud.getEmail()) || stud.getEmail().length() == 0 || stud.getEmail() == null; 
 	}
 
 }

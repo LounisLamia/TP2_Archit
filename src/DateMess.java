@@ -18,8 +18,7 @@ public class DateMess implements IJournal {
         String currentDateandTime = sdf.format(new Date(0));
         StackTraceElement ste = Thread.currentThread().getStackTrace()[2];
         String callerClass = ste.getClassName();
-        //System.out.println(message +" "+ currentDateandTime +" depuis la  classe :"+ callerClass);
-        return message +" "+ currentDateandTime +" depuis la  classe :"+ callerClass;
+        return message +" "+ currentDateandTime +" depuis la  classe :"+ callerClass;//
 }
 }
 

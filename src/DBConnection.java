@@ -22,13 +22,14 @@ public class DBConnection {
 	            instance = new DBConnection();}
 	    	
 	    	return instance;
-	    }
+	    } 
 
 	    
 	    public Connection getConn() throws SQLException {
 			return conn;
 		}
 
+	    
 		
 	
 }
