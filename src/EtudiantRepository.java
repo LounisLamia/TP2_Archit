@@ -50,8 +50,7 @@ public class EtudiantRepository implements IEtudiantRepository{
 		return false;
 	}
 	
-	public boolean Exists(int mat) throws SQLException, IOException
-	{
+	public boolean Exists(int mat) throws SQLException, IOException{
 		DBConnection BD= DBConnection.getInstance();
 		Connection connect=BD.getConn();
 		
@@ -68,6 +67,7 @@ public class EtudiantRepository implements IEtudiantRepository{
 		connect.close();
 		return false;
 	}
+	
 	public boolean VerifEmailMat(Etudiant  stud) throws SQLException, IOException {
 		// TODO Auto-generated method stub
 		return this.Exists(stud.getMatricule()) || this.Exists(stud.getEmail()) || stud.getEmail().length() == 0 || stud.getEmail() == null; 

@@ -26,7 +26,7 @@ public class UniversiteRepository implements IUniversiteRepository {
 		String sql = "select * from universite where id_universite="+ universityId;
 		ResultSet rs = stmt.executeQuery(sql);
 		rs.next();	
-		TypePackage p=TypePackage.valueOf(rs.getString(3));
+    	TypePackage p=TypePackage.valueOf(rs.getString(3));
 		Universite u = new Universite (rs.getInt(1),rs.getString(2),p);
 			
 		journal.outPut_Msg("LogBD : université récupérée");

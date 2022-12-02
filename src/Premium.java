@@ -19,6 +19,6 @@ public class Premium extends Package {
 		return 10;
 	}
 
-}
+} 
 
 

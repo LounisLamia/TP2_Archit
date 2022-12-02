@@ -81,7 +81,7 @@ public class Etudiant  {
 			this.nbLivreEmprunte = nbLivreEmprunte;
 		}
 
-
+       
 		public int getId_universite() {
 			return id_universite;
 		}
@@ -101,6 +101,8 @@ public class Etudiant  {
 			this.pwd = pwd;
 		}
 
-		
+		public void Bonus(int nbrLivreBonus) {
+			this.nbLivreMensuel_Autorise+=nbrLivreBonus;
+		}
 		
 	    }

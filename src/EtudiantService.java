@@ -20,28 +20,32 @@ public class EtudiantService {
 boolean inscription (int matricule, String nom, String prénom, String email,String pwd, int id_universite) throws SQLException, IOException{	
 	    Etudiant stud = new Etudiant(matricule, nom, prénom, email,pwd,id_universite);
 	    journal.outPut_Msg("Log: début de l'opération d'ajout de l'étudiant avec matricule "+stud.getMatricule());
+	    if(iStudRep.VerifEmailMat(stud)) {
+	    	return false;}
 	    
-	     if(iStudRep.VerifEmailMat(stud)) {
-	    	return false;
-	   }
-	   int nbrlivreAutorisé = iUnivRep.NbrLivreAutorise(stud.getId_universite());
-		  stud.setNbLivreMensuel_Autorise(nbrlivreAutorisé);
-	     
-		 iStudRep.add(stud);
 	    
-	                
-	     
-		 iStudRep.add(stud);
-		
-	    
-		
-	
-		 journal.outPut_Msg("Log: Fin de l'opération d'ajout de l'étudiant avec matricule "+stud.getMatricule());
-		 return true;
-	    
-		
-	}
+	    int nbrlivreAutorisé = iUnivRep.NbrLivreAutorise(stud.getId_universite());
+	    stud.setNbLivreMensuel_Autorise(nbrlivreAutorisé);
+	    iStudRep.add(stud);
+	    journal.outPut_Msg("Log: Fin de l'opération d'ajout de l'étudiant avec matricule "+stud.getMatricule());
+        return true;
+        
+        
+        
+}
 
+  public void AjouterBonus() throws SQLException, IOException {
+     ArrayList<Etudiant> etudiant =  GetEtudiantParUniversitye();
+     for (Etudiant i:etudiant){
+    	 i.Bonus(iUnivRep.NbrLivreBonus(i.getId_universite()));
+    	 
+    	 
+     }
+     }
+       
+	        
+	
+      
 	
 	
 	 
