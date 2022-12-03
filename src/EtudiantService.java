@@ -9,6 +9,7 @@ public class EtudiantService {
 	private IEtudiantRepository  iStudRep;
 	private IUniversiteRepository  iUnivRep;
 	private IJournal journal;
+	  Universite univ;
 	
 	public EtudiantService(IEtudiantRepository iStudRep, IUniversiteRepository iUnivRep,IJournal journal) {
 		this.iStudRep = iStudRep;
@@ -20,12 +21,16 @@ public class EtudiantService {
 boolean inscription (int matricule, String nom, String prénom, String email,String pwd, int id_universite) throws SQLException, IOException{	
 	    Etudiant stud = new Etudiant(matricule, nom, prénom, email,pwd,id_universite);
 	    journal.outPut_Msg("Log: début de l'opération d'ajout de l'étudiant avec matricule "+stud.getMatricule());
+	    
 	    if(iStudRep.VerifEmailMat(stud)) {
 	    	return false;}
 	    
 	    
-	    int nbrlivreAutorisé = iUnivRep.NbrLivreAutorise(stud.getId_universite());
+	 
+		int nbrlivreAutorisé = iUnivRep.NbrLivreAutorise(stud.getId_universite());
 	    stud.setNbLivreMensuel_Autorise(nbrlivreAutorisé);
+	   
+
 	    iStudRep.add(stud);
 	    journal.outPut_Msg("Log: Fin de l'opération d'ajout de l'étudiant avec matricule "+stud.getMatricule());
         return true;

@@ -36,7 +36,7 @@ public class UniversiteRepository implements IUniversiteRepository {
 	 
 		
 	}	
-	public int NbrLivreAutorise(int univId) throws SQLException, IOException {
+     public int NbrLivreAutorise(int univId) throws SQLException, IOException {
 		// TODO Auto-generated method stub
 		Universite univ= GetById(univId);
 		AbstractFactory abs = new MakeAbstract();
@@ -50,5 +50,5 @@ public class UniversiteRepository implements IUniversiteRepository {
 		Package pack = abs.getPackage(univ.getPack()); 
 		return pack.getNbrLivreBonus();
 		
-	}	
+	}
 }
