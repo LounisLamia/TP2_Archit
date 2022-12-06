@@ -1,6 +1,7 @@
+package Repository;
 
 
-	public class MakeAbstract extends AbstractFactory {
+	public  class MakeAbstract extends AbstractFactory {
 
 		public Package getPackage(TypePackage typePackage) {
 			// TODO Auto-generated method stub  
@@ -10,6 +11,12 @@
 				return new Premium(null);
 			}
 			return new Ilimité(null);
+		}
+
+		@Override
+		public Package getPackage(Services.TypePackage typePackage) {
+			// TODO Auto-generated method stub
+			return null;
 		}
 
 	}

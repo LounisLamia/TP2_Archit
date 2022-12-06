@@ -32,3 +32,92 @@ Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970
 logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
 Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
 logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  5 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  6 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+LogBD : début recherche de id université dans la base de donnée Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+LogBD : début recherche de id université dans la base de donnée Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+LogBD : début recherche de id université dans la base de donnée Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+log : ajout dans la BD réussi de l'étudiant  du Matricule7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: Fin de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+Log: début de l'opération d'ajout de l'étudiant avec matricule 7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite
+logBD--- :etudiant avec ce matricule existe déja dans la BD  7 Le : 01.01.1970 Heure :  01:00:00 depuis la  classe :MessComposite

@@ -20,8 +20,9 @@ public class MainApp {
 			
 			// Etudiant stud = new Etudiant(5, "Guendouziiiii", "wassila", "guen4@gmail.com","xxxx", 2);
 			 EtudiantService serv=new EtudiantService(StudRep,UnivRep,a);
-			serv.inscription(5, "Guendouziiiii", "wassila", "guen4@gmail.com","xxxx", 2);
-			serv.inscription(6, "Lounis", "Lamia", "lounis4@gmail.com","xxx", 2);
+			//serv.inscription(5, "Guendouziiiii", "wassila", "guen4@gmail.com","xxxx", 2);
+			//serv.inscription(6, "Lounis", "Lamia", "lounis4@gmail.com","xxx", 2);
+			serv.inscription(7, "Lounis", "kenza", "kenza123@gmail.com", "yyy", 3);
 			
 			
 			

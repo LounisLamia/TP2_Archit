@@ -1,3 +1,4 @@
+package Services;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -19,7 +20,7 @@ public class EtudiantService {
 		 
 	}
 	 
-boolean inscription (int matricule, String nom, String prénom, String email,String pwd, int id_universite) throws SQLException, IOException{	
+public boolean inscription (int matricule, String nom, String prénom, String email,String pwd, int id_universite) throws SQLException, IOException{	
 	    Etudiant stud = new Etudiant(matricule, nom, prénom, email,pwd,id_universite);
 	    journal.outPut_Msg("Log: début de l'opération d'ajout de l'étudiant avec matricule "+stud.getMatricule());
 	    
