@@ -1,14 +1,15 @@
 package Controleur;
 import Services.EtudiantService;
+import View.IViewInscription;
 import View.ViewInscription;
 
 import java.io.IOException;
 import java.sql.SQLException;
 
 
-public class ControleurInscription {
+public class ControleurInscription  {
 	private EtudiantService EService;
-	private ViewInscription View;
+	private IViewInscription View;
 	
  public  ControleurInscription(EtudiantService eService,ViewInscription view) {
 	 EService=eService;

@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public  class ViewInscription {
+public  class ViewInscription implements IViewInscription {
 	private JTextField matricule = new JTextField(50);
 	private JTextField nom = new JTextField();
 	private JTextField Prénom = new JTextField();
@@ -22,7 +22,7 @@ public  class ViewInscription {
 	
 	
 	
-	public ViewInscription() {
+	public void ViewInscription() {
 		// TODO Auto-generated constructor stub
 		
 		
@@ -131,6 +131,15 @@ public  class ViewInscription {
 	        password.setText("");
 	        universite.setText("");
 	    }
+	 public void addListener() {
+			notifyObserver(getbtn1());
+			notifyObserver(getbtn2());
+		}
+	private void notifyObserver(JButton getbtn1) {
+		// TODO Auto-generated method stub
+		
+	}
+		
 
 
 
